@@ -1,0 +1,244 @@
+/* pre-definições -----------------------------------*/
+@font-face {
+    font-family: 'Main';
+    src: url(./fonts/DreamCottage-Regular.otf);
+}
+@font-face {
+    font-family: 'Secondary';
+    src: url(./fonts/Monteilga.otf);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #331e04;
+}
+
+/* Header -----------------------------------*/
+header .container{
+    background-color: #eeece6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #331e04;
+}
+header .logo{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 16px;
+    margin-left: 5%;
+}
+
+.logo h1{
+    margin-left: 8px;
+    font-family: 'Main';
+    font-weight: normal;
+    font-size: 50px;
+}
+.logo h2{
+    font-family: 'Main';
+    font-weight: normal;
+    font-size: 45px;
+}
+.logo h3{
+    margin-left: 10px;
+    font-family: 'Secondary';
+    font-weight: normal;
+    font-size: 17px;
+}
+
+header li{
+    display: inline;
+    align-items: center;
+    padding: 40px;
+    font-family: 'Secondary';
+    font-weight: 600;
+}
+header nav{
+    margin-right: 5%;
+}
+
+/* Main -----------------------------------*/
+#Welcome .container{
+    background-color: #eeece6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    color: #331e04;
+}
+
+#Welcome .texts{
+    display: block;
+    width: 40%;
+    margin-left: 5%;
+}
+#Welcome .title h1{
+    margin-left: 35px;
+    font-family: 'Main';
+    font-weight: normal;
+    font-size: 50px;
+}
+#Welcome .title h3{
+    margin-left: 20px;
+    font-family: 'Secondary';
+    font-weight: normal;
+    font-size: 14px;
+    font-weight: 600;
+}
+#Welcome .content{
+    margin-left: 5%;
+}
+#Welcome .content p{
+    margin-left: 35px;
+    font-family: 'Main';
+    font-weight: 600;
+}
+
+#Welcome .images{
+    display: grid;
+    align-items: center;
+    width: 60%;
+    padding: 16px;
+    margin-left: 5%;
+}
+#Welcome .images_cl2 {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: space-between;
+} 
+#Welcome .images_cl1 {
+    width: 50%;
+}
+#Welcome .images img{
+    width: 100%;
+    padding: 8px;
+}
+
+
+#About .container{
+    background-color: #331e04;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+#About .images{
+    display: grid;
+    align-items: center;
+    width: 35%;
+    padding: 16px;
+    margin-left: 10%;   
+}
+#About .images img{
+    width: 100%;
+    padding: 8px;
+}
+
+#About .texts{
+    display: block;
+    width: 40%;
+    margin-right: 10%;
+    color: #eeece6;
+}
+#About .title h1{
+    margin-left: 35px;
+    font-family: 'Main';
+    font-weight: normal;
+    font-size: 50px;
+}
+#About .title h3{
+    margin-left: 20px;
+    font-family: 'Secondary';
+    font-weight: normal;
+    font-size: 14px;
+}
+#About .content{
+    margin-left: 5%;
+}
+#About .content p{
+    margin-left: 35px;
+    font-family: 'Main';
+}
+
+
+#Order .container{
+    background-color: #eeece6;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    height: 700px;
+}
+
+#Order .texts{
+    display: block;
+    width: 40%;
+    margin-left: 30%;
+    color: #331e04;
+    margin-bottom: 20%;
+}
+#Order .title h1{
+    margin-left: 50px;
+    font-family: 'Main';
+    font-weight: normal;
+    font-size: 50px;
+}
+#Order .title h3{
+    margin-left: 30px;
+    font-family: 'Secondary';
+    font-weight: normal;
+    font-size: 14px;
+}
+
+#Order .forms{
+    margin-right: 50%;
+    margin-top: 5%;
+}
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 16px;
+    background-color: #eeece6;
+    border-style:dashed;
+}
+form textarea{
+    resize: none;
+    height: 90px;
+}
+form button{
+    background-color: #331e04;
+    color: #eeece6;
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #eeece6;
+    color: #331e04;
+    border-style: dashed;
+}
+input:focus, textarea:focus{
+    outline-color: #331e04;
+}
+
+/* footer -----------------------------------*/
+footer {
+    display: flex;
+    align-items: center;
+    background-color: #eeece6;
+    color: #331e04;
+    padding: 16px 0;
+}
+footer .container{
+    margin-left: 40%;
+}
